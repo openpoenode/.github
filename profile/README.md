@@ -8,7 +8,7 @@
 This project revolves around the [openPoeNode module](https://github.com/openpoenode/module), which combines:
 
 - an ESP32-D0WD-V3 microcontroller,
-- 4, 8, or 16 MB of NOR flash,
+- 16 MB of NOR flash,
 - 4 MB of PSRAM,
 - 10/100 Mbit Ethernet connectivity,
 - a Power-over-Ethernet (802.3af) interface, and
@@ -16,7 +16,7 @@ This project revolves around the [openPoeNode module](https://github.com/openpoe
 
 into a compact form factor (45 × 30 mm) **reusable building block** with a standard connector interface.
 
-The module is complemented by several carrier board reference designs and a **KiCad library** for frictionless project bootstrapping.
+The module is complemented by several carrier board reference designs and a [KiCad library](https://github.com/openpoenode/library) for frictionless project bootstrapping.
 
 Among the featured carrier boards, the [Breakout Board](https://github.com/openpoenode/breakoutboard) enables integrators to fully evaluate all features of the openPoeNode module.
 
@@ -48,6 +48,15 @@ Typical applications include:
 - Machine telemetry / monitoring
 - Building automation systems
 - Distributed control systems
+
+This module is not suitable for projects, that:
+
+- rely on the radio peripherals of the ESP32 (namely Wifi and Bluetooth); the module intentionally **does not** expose any of those. Of course you can interface any external radios via the standard GPIOs.
+- need more processing power the standard ESP32 offers. The ESP32-D0WD-V3 MCU variant has been chosen for its native EMAC (Ethernet) peripheral.
+
+In order to build carrier boards for the openPoeNode module, you should be comfortable with basic SMD assembly; while reflow processing is preferred, hand soldering is possible. The module is interfaced via a standard 52pin Mini-PCIe connector, which are usually not available as THT parts. Besides that, there are no restrictions or special requirements.
+
+For building the module itself, a working setup for doublesided SMD assembly with a SAC305 relow profile tuned for fine-pitch components is mandatory. While certainly feasible in a DIY environment, these are midlevel to advanced requirements.
 
 ## Technical specifications
 
