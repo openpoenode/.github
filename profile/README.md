@@ -61,7 +61,7 @@ For building the module itself, a working setup for doublesided SMD assembly wit
 ## Technical specifications
 
 Detailed technical specifications can be found in the [module](https://github.com/openpoenode/module) repository.  
-For instructions on how to design a custom carrier, check out the [Wiki](https://github.com/openpoenode/module/wiki).
+For instructions on how to design a custom carrier, check out the [library](https://github.com/openpoenode/library) repository.
 
 ## Positioning
 
@@ -86,9 +86,7 @@ openPoeNode has been designed primarily for industrial applications. As such, th
 
 The design has currently **completed the EVT phase**. Both the module and breakout board carrier perform as intended.
 
-As a next step to further refine the design, there will be a pilot run with limited quantities of openPoeNode modules available.
-
-**To participate in this early-access closed pilot, check the Wiki for [how to apply](https://github.com/openpoenode/module/wiki/Early-Access-Pilot).**
+As a next step to further refine the design, there will be a pilot run with limited quantities of openPoeNode modules available. Stay tuned for further information will be published here soon.
 
 ## Design philosophy
 
