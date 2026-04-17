@@ -20,6 +20,8 @@ The module is complemented by several carrier board reference designs and a [KiC
 
 Among the featured carrier boards, the [Breakout Board](https://github.com/openpoenode/breakoutboard) enables integrators to fully evaluate all features of the openPoeNode module.
 
+[![SignupForLaunchNewsletter](signup.png)](https://s69qv.mjt.lu/wgt/s69qv/0j3v/form?c=a269a05f)
+
 ## Why
 
 In the realm of PoE-powered IoT devices, when starting a new project, probably **90% of the effort is spent** repeatedly spinning up the infrastructure: MCU with memory, communications and power supply. Schematics, PCB layout, component selection, sourcing, and testing all consume significant time, money, and resources that are better used elsewhere.
@@ -87,6 +89,8 @@ openPoeNode has been designed primarily for industrial applications. As such, th
 The design has currently **completed the EVT phase**. Both the module and breakout board carrier perform as intended.
 
 As a next step to further refine the design, there will be a pilot run with limited quantities of openPoeNode modules available. Stay tuned for further information will be published here soon.
+
+[![SignupForLaunchNewsletter](signup.png)](https://s69qv.mjt.lu/wgt/s69qv/0j3v/form?c=a269a05f)
 
 ## Design philosophy
 
